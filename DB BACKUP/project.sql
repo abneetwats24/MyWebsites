@@ -38,7 +38,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`email`, `password`) VALUES
-('ak@gmail.com', 'ak123456');
+('ak@gadha.com', 'ak123456');
 
 -- --------------------------------------------------------
 
@@ -95,7 +95,7 @@ CREATE TABLE `feedback` (
 --
 
 INSERT INTO `feedback` (`id`, `name`, `email`, `subject`, `feedback`, `date`, `time`) VALUES
-('5ccf6968ee7e6', 'Abneet', 'abneetwats24@gmail.com', 'website', 'this is nice website', '2019-05-06', '12:53:28am');
+('5ccf6968ee7e6', 'hola', 'holahola24@gadha.com', 'website', 'this is nice website', '2019-05-06', '12:53:28am');
 
 -- --------------------------------------------------------
 
@@ -118,7 +118,7 @@ CREATE TABLE `history` (
 --
 
 INSERT INTO `history` (`email`, `eid`, `score`, `level`, `sahi`, `wrong`, `date`) VALUES
-('abneetwats24@gmail.com', '55897338a6659', -2, 5, 1, 4, '2019-05-05 22:52:15');
+('holahola24@gadha.com', '55897338a6659', -2, 5, 1, 4, '2019-05-05 22:52:15');
 
 -- --------------------------------------------------------
 
@@ -292,8 +292,8 @@ CREATE TABLE `rank` (
 --
 
 INSERT INTO `rank` (`email`, `score`, `time`) VALUES
-('krishnaahir748@gmail.com', 3, '2019-05-02 06:42:43'),
-('abneetwats24@gmail.com', -2, '2019-05-05 22:52:15');
+('holihira748@gadha.com', 3, '2019-05-02 06:42:43'),
+('holahola24@gadha.com', -2, '2019-05-05 22:52:15');
 
 -- --------------------------------------------------------
 
@@ -315,8 +315,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`name`, `gender`, `college`, `email`, `mob`, `password`) VALUES
-('Abneet Wats', 'M', 'GEC PATAN', 'abneetwats24@gmail.com', 9428936671, '12345678'),
-('Krishna', 'F', 'GEC PATAN', 'krishnaahir748@gmail.com', 9373119739, '123456');
+('hola hola', 'M', 'GEC PATAN', 'holahola24@gadha.com', 9428936671, '12345678'),
+('holi', 'F', 'GEC PATAN', 'holihira748@gadha.com', 9373119739, '123456');
 
 --
 -- Indexes for dumped tables
